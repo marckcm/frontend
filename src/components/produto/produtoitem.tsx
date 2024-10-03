@@ -1,14 +1,20 @@
 'use client'
+// importa dados dos produtos
 import { Produto } from "@/core"
+// importa da galeria de icons os icones para ultilização na pagina
 import { IconShoppingCart, IconShoppingCartPlus } from "@tabler/icons-react"
+// importa as imagens dos produtos de api externa configurado em next.config.mjs
 import Image from "next/image"
+// importa o link next onde toda area envolvida se torna clicavel
 import Link from "next/link"
 
 
+// função que recebe os dados do produto
 export interface ProdutoItemProps {
     produto: Produto
 }
 
+// função que renderiza o card do produto
 export default function ProdutoItem(props: ProdutoItemProps) {
     const { produto } = props
     return (

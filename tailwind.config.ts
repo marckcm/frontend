@@ -11,6 +11,7 @@ const config: Config = {
             colors: {
                 background: 'var(--background)',
                 foreground: 'var(--foreground)',
+                // inserido para adicionar a cor para utilização na pagina
                 'violet-dark': {
                     DEFAULT: '#0E001D',
                     foreground: '#FFF',

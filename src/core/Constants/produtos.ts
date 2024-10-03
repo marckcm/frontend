@@ -1,5 +1,6 @@
 import Produto from '../produto/produto'
 
+// Array onde fica todos os dados do produto
 const produtos: Produto[] = [
     {
         id: 1,
